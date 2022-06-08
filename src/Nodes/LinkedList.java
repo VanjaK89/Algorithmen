@@ -20,7 +20,7 @@ public class LinkedList {
 
         Node currentNode = first;               //currentNode zeigt auf ALD lernen
         currentNode = currentNode.getNext();    //currentNode zeigt auf Einkauf
-       
+
 
         currentNode.setNext(newNode);
         newNode.setNext(last);
